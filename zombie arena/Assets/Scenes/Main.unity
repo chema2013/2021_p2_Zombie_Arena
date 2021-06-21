@@ -3071,6 +3071,7 @@ Transform:
   - {fileID: 2078733095}
   - {fileID: 527730970}
   - {fileID: 507108753}
+  - {fileID: 2045434172}
   - {fileID: 1540040566}
   - {fileID: 932794605}
   - {fileID: 862548950}
@@ -3083,6 +3084,7 @@ Transform:
   - {fileID: 1189933682}
   - {fileID: 1083931605}
   - {fileID: 640375332}
+  - {fileID: 1078506252}
   - {fileID: 49107620}
   - {fileID: 422474026}
   - {fileID: 1659946635}
@@ -3102,8 +3104,6 @@ Transform:
   - {fileID: 346441751}
   - {fileID: 930789534}
   - {fileID: 2037326053}
-  - {fileID: 2045434172}
-  - {fileID: 1078506252}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24558,7 +24558,7 @@ Transform:
   - {fileID: 7866460}
   - {fileID: 1059412219}
   m_Father: {fileID: 152384159}
-  m_RootOrder: 60
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1080370839
 PrefabInstance:
@@ -44614,7 +44614,7 @@ Transform:
   - {fileID: 858583948}
   - {fileID: 2029500841}
   m_Father: {fileID: 152384159}
-  m_RootOrder: 59
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2049578979
 PrefabInstance:
