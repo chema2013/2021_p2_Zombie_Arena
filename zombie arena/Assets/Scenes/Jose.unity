@@ -1076,11 +1076,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Fuel","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"spawnTime","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"randomPosition","value":{"$content":80,"$type":"System.Int32"},"$version":"A"},{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Bloodpoints","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"bulletParent","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Health","value":{"$content":12,"$type":"System.Int32"},"$version":"A"},{"name":"heart","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Fuel","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"spawnTime","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"randomPosition","value":{"$content":80,"$type":"System.Int32"},"$version":"A"},{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Bloodpoints","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"bulletParent","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Health","value":{"$content":12,"$type":"System.Int32"},"$version":"A"},{"name":"heart","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear2","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear3","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear4","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear5","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear6","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear7","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear8","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear9","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear10","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear11","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gear12","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 819080298}
     - {fileID: 609679926}
     - {fileID: 1756742072}
+    - {fileID: 1440517958}
+    - {fileID: 1589606977}
+    - {fileID: 1746275921}
+    - {fileID: 543468758}
+    - {fileID: 22153737}
+    - {fileID: 1266422926}
+    - {fileID: 1622558974}
+    - {fileID: 585528358}
+    - {fileID: 1684723426}
+    - {fileID: 1397650424}
+    - {fileID: 538514588}
+    - {fileID: 190884083}
 --- !u!4 &374869442
 Transform:
   m_ObjectHideFlags: 0
@@ -4432,6 +4444,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1749797774}
+  - component: {fileID: 1749797776}
+  - component: {fileID: 1749797775}
   m_Layer: 5
   m_Name: Health
   m_TagString: Untagged
@@ -4470,6 +4484,37 @@ RectTransform:
   m_AnchoredPosition: {x: -733, y: 351}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1749797775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749797773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e3a2845a5c89c5a478e474f683f60b99, type: 2}
+--- !u!114 &1749797776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749797773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1756742072
 GameObject:
   m_ObjectHideFlags: 0
