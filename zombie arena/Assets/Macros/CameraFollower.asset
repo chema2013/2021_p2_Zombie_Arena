@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: CameraFollower
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"camera
+      follow","summary":null,"pan":{"x":24.17679,"y":34.29125},"zoom":0.4999999,"elements":[{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Car","$type":"System.String"}},"position":{"x":-449.0,"y":-83.0},"guid":"e4559630-842e-4aea-b388-68b0b01d4052","$version":"A","$type":"Bolt.GetVariable","$id":"9"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-238.0,"y":-80.0},"guid":"f603ce31-387f-474f-9cf5-1b830e458666","$version":"A","$type":"Bolt.GetMember","$id":"11"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":248.0,"y":-96.0},"guid":"732fdaaa-5111-4f8a-b7d7-5f7a86c22e0e","$version":"A","$type":"Bolt.SetMember","$id":"14"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"offset","$type":"System.String"}},"position":{"x":-234.0,"y":126.0},"guid":"aa6cd8e3-9808-4f0e-8da3-0fb52e757b26","$version":"A","$type":"Bolt.GetVariable","$id":"17"},{"defaultValues":{"b":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-43.0,"y":-38.0},"guid":"7b8bd5a7-f489-4b4c-be50-7315f912ffcd","$version":"A","$type":"Bolt.Vector3Add","$id":"19"},{"coroutine":false,"defaultValues":{},"position":{"x":-142.0,"y":-236.0},"guid":"d5809623-9c04-473c-9603-9bb9372d38a7","$version":"A","$type":"Bolt.Update","$id":"21"},{"sourceUnit":{"$ref":"21"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"12f64bec-6c85-482e-bcce-48d0ad416eb6","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"c19f9c2a-4784-4003-a865-428b7fd3b4f2","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"a","guid":"b2247daf-fbea-4fa7-a971-f9b0c5ba16bc","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"b","guid":"77400037-6bb2-474e-aa9c-acd78cd91788","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"sum","destinationUnit":{"$ref":"14"},"destinationKey":"input","guid":"f3a70094-e3f8-4f19-9af6-855fab89f88a","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
