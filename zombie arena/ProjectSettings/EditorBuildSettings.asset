@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Samuel/Samuel Fixed.unity
     guid: e2ec4e43a849d944cb40b24c9209d8a0
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: cdf94b336d6114d1f926aaafbea11360
+    path: Assets/Scenes/Main 2.unity
+    guid: 98cd673145a094fe5a68fa4a4634c6ae
   m_configObjects: {}
